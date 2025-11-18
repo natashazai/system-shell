@@ -1,7 +1,10 @@
 # system-shell
 A modern, colorful terminal shell built from scratch in C with process control, job management, and an ncurses-powered UI.
 
-To run: gcc -std=gnu99 smallsh.c -o smallsh
+To run:
+1) gcc smallsh.c -o smallsh -lncurses
+2) ./smallsh
+3) to exit, type exit in command line
 
 It is capable of:
 -forking a child process for background/foreground commands
