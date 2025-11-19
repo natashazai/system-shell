@@ -2,7 +2,7 @@
 A modern, colorful terminal shell built from scratch in C with process control, job management, and an ncurses-powered UI.
 
 To run:
-1) gcc smallsh.c -o smallsh -lncurses
+1) gcc smallsh-with-ui.c race.c -o smallsh -lncurses -lpthread
 2) ./smallsh
 3) to exit, type exit in command line
 
